@@ -4,6 +4,7 @@ import MultipleItems from "@/components/Carousel";
 import Link from "next/link";
 
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 
 const HomePage = () => {
@@ -65,7 +66,7 @@ const HomePage = () => {
             }
             className='mx-2 px-4 py-2'
           >
-            <span className='block h-[5px] w-8 bg-slate-300 hover:bg-orange-700'></span>
+            {/* <span className='block h-[5px] w-8 bg-slate-300 hover:bg-orange-700'></span>
           </button>
           <button aria-label="home page segment button"
             onClick={() =>
@@ -90,36 +91,47 @@ const HomePage = () => {
               )
             }
             className='mx-2 px-4 py-2 '
-          >
+          > */}
             <span className='block h-[5px] w-8 bg-slate-300 hover:bg-orange-700'></span>
           </button>
         </div>
         <div className='border-b-2'>
           <div className='h-auto w-[80%] mx-auto flex justify-center flex-wrap items-center xl:gap-20'>
-            <a
-              className='xl:py-3 text-black py-2 xl:px-4 px-5 block font-medium xl:text-lg text-sm hover:bg-slate-200'
-              href='#company-overview'
-            >
-              OVERVIEW
-            </a>
-            <a
+            <Link href={'/profile'}>
+              <p
+                className='xl:py-3 text-black py-2 xl:px-4 px-5 block font-medium xl:text-lg text-sm hover:bg-slate-200'
+                href='#company-overview'
+              >
+                PROFILE
+              </p>
+            </Link>
+            <Link href={'/visi-misi'}>
+            <p
               className='xl:py-3 text-black py-2 xl:px-4 px-5 block font-medium xl:text-lg text-sm hover:bg-slate-200'
               href='#signature'
             >
-              SIGNATURE
-            </a>
-            <a
+              VISI MISI
+            </p>
+            </Link>
+
+            <Link href={'/products'}>
+            <p
               className='xl:py-3 text-black py-2 xl:px-4 px-5 block font-medium xl:text-lg text-sm hover:bg-slate-200'
               href='#products'
             >
-              SUPERCARS
-            </a>
-            <a
+              PRODUCTS
+            </p>
+            </Link>
+
+            <Link href={'/contact'}>
+            <p
               className='xl:py-3 text-black py-2 xl:px-4 px-5 block font-medium xl:text-lg text-sm hover:bg-slate-200'
-              href='#media-review'
+              href='#contact'
             >
-              MEDIA REVIEW
-            </a>
+              CONTACT
+            </p>
+            </Link>
+
           </div>
         </div>
       </div>
@@ -142,7 +154,7 @@ const HomePage = () => {
               requiring a company to be established with at least two people.{" "}
             </p>
           </div>
-          <div id="signature" className="bg-black text-gray-200 py-12">
+          {/* <div id="signature" className="bg-black text-gray-200 py-12">
             <div id="principles" className="">
               <h2 className="xl:text-2xl text-xl mb-10 text-center font-semibold pt-8">THE BRABUS DIFFERENCE</h2>
               <div className="xl:text-lg text-xs grid xl:grid-cols-3 grid-cols-2 justify-items-center px-4 max-w-5xl mx-auto">
@@ -193,10 +205,10 @@ const HomePage = () => {
                 </tbody>
               </table>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
-      <section id="media-review" className="bg-testimonials-background">
+      {/* <section id="media-review" className="bg-testimonials-background">
         <h2 className="text-center xl:pt-24 pt-10 font-semibold text-gray-700 text-2xl xl:text-4xl">MEDIA REVIEW</h2>
         <h3 className="text-center text-xs">(Testimonials)</h3>
         <div id="cards" className="flex flex-row flex-wrap xl:mt-36 mt-10 justify-center gap-5 px-5 pb-24">
@@ -231,7 +243,8 @@ const HomePage = () => {
           See More
           </Link>
         </div>
-      </section> 
+      </section>  */}
+      
     </div>
   );
 };

@@ -1,11 +1,12 @@
+import Footer from "@/components/Footer";
 import Image from "next/image";
 
 export const metadata = {
-  title: 'about us - page',
+  title: 'visi-misi - page',
   description: 'Intoduction Brabus Company History, Teams and Culture',
 }
 
-function AboutUs() {
+function visimisi() {
   return (
     <div>
       <div className="">
@@ -159,8 +160,9 @@ function AboutUs() {
           </div>
         </section>
       </div>
+      
     </div>
   );
 }
 
-export default AboutUs;
+export default visimisi;

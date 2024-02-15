@@ -34,13 +34,18 @@ const Sidebar = () => {
           </Link>
         </li>
         <li>
-        <Link href="/products" className="w-1/2 text-gray-800 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800 ">
-            CARS
+        <Link href="/gallery-photo" className="w-1/2 text-gray-800 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800 ">
+            GALLERY PHOTO
           </Link>
         </li>
         <li>
-        <Link href="/teams" className="w-1/2 text-gray-800 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800 ">
-            OUR TEAM
+        <Link href="/client" className="w-1/2 text-gray-800 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800 ">
+            CLIENT
+          </Link>
+        </li>
+        <li>
+        <Link href="/login" className="w-1/2 text-gray-800 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800 ">
+            LOGIN
           </Link>
         </li>
         <li className="w-1/2 mt-14 ml-[20%] text-shadow-black xl:text-base text-sm hover:text-indigo-800">

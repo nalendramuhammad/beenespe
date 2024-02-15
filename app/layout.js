@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const barlow = Barlow({ subsets: ["latin"], weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'] });
 
 export const metadata = {
-  title: 'brabus company profile',
-  description: 'brabus company profile',
+  title: 'motorcycle company profile',
+  description: 'motorcycle company profile',
 }
 
 export default function RootLayout({ children }) {
