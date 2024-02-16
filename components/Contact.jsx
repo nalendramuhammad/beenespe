@@ -69,7 +69,7 @@ function ContactForm() {
         </div>
         <button
           type='submit'
-          className='w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300'
+          className='w-full bg-black text-white py-2 px-4 rounded-md hover:bg-gray-800 transition duration-300'
         >
           Submit
         </button>

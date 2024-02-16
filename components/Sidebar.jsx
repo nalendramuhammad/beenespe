@@ -18,10 +18,10 @@ const Sidebar = () => {
           </Link>
         </li>
       </ul>
-      <ul className='mt-12'>
+      <ul className='mt-10'>
         <li>
           <Link
-            href='/components/About'
+            href='/artikel'
             className='text-gray-800 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800'
           >
             ARTIKEL
@@ -29,7 +29,7 @@ const Sidebar = () => {
         </li>
         <li>
           <Link
-            href='/gallery-photo'
+            href='/event'
             className='text-gray-800 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800'
           >
             EVENT
@@ -37,7 +37,7 @@ const Sidebar = () => {
         </li>
         <li>
           <Link
-            href='/client'
+            href='/gallery-photo'
             className='text-gray-800 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800'
           >
             GALERY FOTO
@@ -51,13 +51,16 @@ const Sidebar = () => {
             KLIEN KAMI
           </Link>
         </li>
-        <li>
-          <Link
-            href='/login'
-            className='text-gray-800 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm hover:text-indigo-800'
-          >
-            LOGIN
-          </Link>
+        <li className='text-gray-800 font-semibold ml-[20%] text-shadow-black xl:text-lg text-sm '>
+          LOGIN
+          <div className='flex flex-col mt-2 ml-2'>
+            <a href='/login' className='text-gray-800 font-semibold text-base'>
+              Sign In
+            </a>
+            <a href='/signup' className='text-gray-800 font-semibold text-base'>
+              Sign Up
+            </a>
+          </div>
         </li>
       </ul>
     </div>

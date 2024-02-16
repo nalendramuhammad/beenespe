@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Touring ke Gunung",
+    "date": "20-22 Februari 2024",
+    "location": "Pegunungan Rockies",
+    "description": "Ikuti tur petualangan ke Pegunungan Rockies yang menakjubkan. Nikmati pemandangan yang memukau dan jalur-jalur menarik."
+  },
+  {
+    "id": 2,
+    "title": "Pameran Sepeda Motor dan Pertemuan",
+    "date": "15 Maret 2024",
+    "location": "Pusat Kota",
+    "description": "Jangan lewatkan pameran sepeda motor tahunan dan pertemuan di pusat kota. Tunjukkan sepeda motor Anda dan terhubung dengan sesama pengendara."
+  },
+  {
+    "id": 3,
+    "title": "Hari Petualangan Off-Road",
+    "date": "5 April 2024",
+    "location": "Taman Off-Road",
+    "description": "Rasakan sensasi berkendara off-road dengan hari petualangan off-road kami. Cocok untuk pengendara dengan segala tingkatan keterampilan."
+  },
+  {
+    "id": 4,
+    "title": "Ride Amal untuk Anak-anak",
+    "date": "10 Mei 2024",
+    "location": "Taman Kota",
+    "description": "Ikuti ride amal untuk mendukung anak-anak yang membutuhkan. Mari membuat perbedaan sambil menikmati perjalanan yang luar biasa bersama."
+  }
+]

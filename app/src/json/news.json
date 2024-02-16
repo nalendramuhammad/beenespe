@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Acara Penggalangan Dana Klub Motor: Bersepeda untuk Kebaikan",
+    "description": "Bergabunglah dengan kami dalam acara penggalangan dana tahunan kami, Bersepeda untuk Kebaikan! Nikmati perjalanan menyusuri pedesaan sambil mendukung tujuan yang baik. Seluruh hasil akan disumbangkan untuk membantu yayasan amal lokal dan inisiatif masyarakat.",
+    "img": "/pd.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Lelang Amal: Tawar untuk Sepeda Motor",
+    "description": "Jangan lewatkan lelang amal kami di mana Anda dapat menawar berbagai barang terkait sepeda motor, termasuk sepeda motor buatan kustom, perlengkapan, dan aksesori. Seluruh hasil akan digunakan untuk mendukung upaya amal klub kami.",
+    "img": "/moge.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Pameran Sepeda Motor: Tunjukkan Kendaraan Anda",
+    "description": "Tunjukkan kebanggaan Anda di acara Pameran Sepeda Motor kami! Baik Anda mengendarai klasik cruiser atau motor sport yang elegan, semua dipersilakan untuk berpartisipasi. Nikmati musik, makanan, dan kebersamaan sambil mengumpulkan dana untuk tujuan yang mulia.",
+    "img": "/pamer.jpeg"
+  }
+]
