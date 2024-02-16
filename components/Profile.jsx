@@ -1,12 +1,6 @@
-import Footer from "@/components/Footer";
 import Image from "next/image";
 
-export const metadata = {
-  title: "visi-misi - page",
-  description: "Intoduction Brabus Company History, Teams and Culture",
-};
-
-function visimisi() {
+export default function Profile() {
   return (
     <div>
       <div className=''>
@@ -305,5 +299,3 @@ function visimisi() {
     </div>
   );
 }
-
-export default visimisi;
