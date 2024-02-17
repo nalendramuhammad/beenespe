@@ -6,7 +6,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/components/Sidebar";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const inter = Inter({

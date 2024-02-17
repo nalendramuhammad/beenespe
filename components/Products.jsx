@@ -1,10 +1,10 @@
-import CarCard from "@/components/CarCard";
-import carData from "../app/src/json/carData.json";
+import ProdCard from "@/components/ProdCard";
+import prodData from "../app/src/json/prodData.json";
 
 const Products = () => {
   // Memisahkan data jaket dan aksesoris
-  const jackets = carData.filter((item) => item.category === "jacket");
-  const accessories = carData.filter((item) => item.category === "accessory");
+  const jackets = prodData.filter((item) => item.category === "jacket");
+  const accessories = prodData.filter((item) => item.category === "accessory");
 
   return (
     <div>
@@ -14,7 +14,7 @@ const Products = () => {
         </h2>
         <div className='mx-auto my-20 w-[80%] flex flex-row flex-wrap justify-center gap-10 '>
           {jackets.map((item) => (
-            <CarCard
+            <ProdCard
               key={item.id}
               id={item.id}
               name={item.name}
@@ -30,7 +30,7 @@ const Products = () => {
         </h2>
         <div className='mx-auto my-20 w-[80%] flex flex-row flex-wrap justify-center gap-10 '>
           {accessories.map((item) => (
-            <CarCard
+            <ProdCard
               key={item.id}
               id={item.id}
               name={item.name}

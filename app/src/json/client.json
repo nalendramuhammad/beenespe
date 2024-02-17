@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Gambar 1",
+    "imgUrl": "/client1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Gambar 2",
+    "imgUrl": "/client2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Gambar 3",
+    "imgUrl": "/suzuki.png"
+  },
+  {
+    "id": 4,
+    "title": "Gambar 3",
+    "imgUrl": "/client5.png"
+  }
+]

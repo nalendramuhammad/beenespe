@@ -2,21 +2,31 @@
   {
     "id": 1,
     "title": "Gambar 1",
-    "imgUrl": "/pd.jpeg"
+    "imgUrl": "/tour1.jpeg"
   },
   {
     "id": 2,
     "title": "Gambar 2",
-    "imgUrl": "/pd.jpeg"
+    "imgUrl": "/tour2.jpeg"
   },
   {
     "id": 3,
     "title": "Gambar 3",
-    "imgUrl": "/pd.jpeg"
+    "imgUrl": "/tour3.jpeg"
   },
   {
     "id": 4,
-    "title": "Gambar 3",
-    "imgUrl": "/pd.jpeg"
+    "title": "Gambar 4",
+    "imgUrl": "/tour4.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Gambar 5",
+    "imgUrl": "/tour5.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Gambar 6",
+    "imgUrl": "/tour6.jpeg"
   }
 ]

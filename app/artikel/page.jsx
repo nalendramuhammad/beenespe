@@ -1,5 +1,6 @@
 import React from "react";
 import news from "../src/json/news.json";
+import HomePage from "../page";
 
 const Artikel = () => {
   return (

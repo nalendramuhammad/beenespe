@@ -74,6 +74,11 @@ function ContactForm() {
           Submit
         </button>
       </form>
+      <div className='mt-10 gap-5'>
+        <p>alamat : jalan karya utama, srengseng, kembangan, jakarta barat</p>
+        <p>email : neue@gmail.com</p>
+        <p>whatsapp : 08176537892</p>
+      </div>
     </div>
   );
 }
